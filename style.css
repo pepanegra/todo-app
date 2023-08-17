@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.t {
+  display: flex;
+  justify-content: space-around;
+}
+.ti {
+  color: aliceblue;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+  margin: 0px 0px 10vh;
+  height: 12vh;
+}
+
+.tj {
+  display: flex;
+  justify-content: center;
+  background-color: #3498db;
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #3498db;
+  height: 50vh;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.th {
+  width: 30%;
+}
+
+.a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  color: #3498db;
+  background-color: aliceblue;
+}
+
+aside {
+  background-color: #3498db;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: all 1s ease-in-out;
+}
+
+.anadir {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 20px;
+}
+
+input {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  overflow-x: calc();
+}
+
+.abrir {
+  transform: translateY(0);
+}
+
+.btn {
+  width: 20%;
+  height: 5vh;
+  border: none;
+  color: #3498db;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
