@@ -38,11 +38,15 @@ header {
 
 .ty {
   display: flex;
-  justify-content: center;
+
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
   border: 5px solid #3498db;
   height: 50vh;
   border-radius: 0px 0px 10px 10px;
+  padding-top: 5%;
+  padding-bottom: 5px;
 }
 
 .th {
@@ -108,4 +112,50 @@ input {
   color: #3498db;
   background-color: aliceblue;
   border-radius: 10px;
+}
+
+.dunk {
+  background-color: #3498db;
+  height: 5vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.d {
+  display: none;
+  padding: 5px 5px 5px 10px;
+}
+
+.eliminar {
+  display: none;
+}
+
+.dunk:hover {
+  height: auto;
+  gap: 5px;
+}
+.dunk:hover .d {
+  height: auto;
+  display: flex;
+}
+
+.dunk:hover .eliminar {
+  width: 10%;
+  height: 5vh;
+  border: none;
+  background-color: #3498db;
+  display: flex;
+}
+
+.nb {
+  color: aliceblue;
+}
+
+img {
+  width: 100%;
+  height: 4vh;
 }
