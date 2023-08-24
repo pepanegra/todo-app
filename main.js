@@ -34,7 +34,7 @@ function agregartarea() {
   img.setAttribute("src", "basura.png");
 
   function eliminarTarea() {
-    
+    div.remove();
   }
 
   if (nombre.value !== "" && descripcion !== "") {
@@ -51,9 +51,12 @@ function agregartarea() {
   } else {
     return aside.classList.toggle("abrir");
   }
+
+  eliminar.addEventListener("click", () => {
+    eliminarTarea();
+  });
 }
 
 btn.addEventListener("click", () => {
   agregartarea();
-  eliminarTarea();
 });
